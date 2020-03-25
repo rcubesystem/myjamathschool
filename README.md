@@ -1,1 +1,1 @@
-# myjamathschool
+# MyJamath Schools
