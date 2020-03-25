@@ -1,0 +1,105 @@
+/* =============================== */
+/* login starts */
+/* =============================== */
+.r4login-container {
+    display: flex;
+
+}
+.r4login {
+    padding: 1rem;
+}
+.r4login .title{
+    font-size: 26px;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.r4login .sub-text {
+    color: #65696f;
+}
+
+.r4login-form {
+    padding: 3rem 0 1rem;
+}
+
+.r4login-form label {
+    text-transform: capitalize;
+}
+
+.r4login-form input {
+    width: 100%;
+    display: block;
+    padding: 10px 15px;
+}
+
+.r4login-form input:focus {
+    border-color: #ec774b;
+    outline: none;
+}
+
+.r4link,
+.r4link:hover {
+    color: #ec774b;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.r4login-bg {
+    display: none;
+}
+
+.r4foot ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.r4foot .supports a {
+    font-size: 12px;
+    text-transform: capitalize;
+    color: #555;
+    text-decoration: none;
+}
+
+.r4foot .supports a:hover {
+    text-decoration: underline;
+}
+
+.r4foot .copyrights {
+    font-size: 12px;
+    margin-top: 20px;
+    color: #999;
+}
+
+.r4foot .copyrights a {
+    color: #999;
+}
+
+@media (min-width: 768px) {
+    .r4login {
+        padding: 2rem;
+        width: 40%;
+        background-color: #fff;
+    }
+    .r4login .title {
+        font-size: 32px;
+    }
+
+    .r4login-form label {
+        font-weight: bold;
+    }
+
+    .r4login-bg {
+        display: block;
+        width: 60%;
+        background: #cecece url("../images/login/laptopbg.jpg") no-repeat fixed center;
+        background-size: cover;
+        height: 100vh;
+    }
+}
+/* =============================== */
+/* login ends */
+/* =============================== */

@@ -1,0 +1,70 @@
+/* =============================== */
+/* globalsearch-container starts */
+/* =============================== */
+.globalsearch-container {
+    background-color: var(--rc-grey-lt);
+}
+.globalsearch-container .r4Col-1-1 {
+    padding-right: 0;
+}
+
+.gs-box {
+    display: flex;
+    flex-direction: column;
+}
+.username-wrapper {
+    text-align: right;
+    display: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: var(--rc-swatch-bl);
+}
+.search-wrapper {
+    position: relative;
+}
+.search-wrapper input {
+    width: 100%;
+    border: 1px solid var(--rc-grey-mid);
+    color: var(--rc-grey-dr);
+    border-radius: 4px;
+    padding: 3px 15px;
+}
+.search-icon {
+    position: absolute;
+    right: 5px;
+    top: 4px;
+}
+.settings-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    color: var(--rc-grey-dr);
+}
+.settings-icon {
+    cursor: pointer;
+}
+
+@media (min-width: 576px) { 
+    .globalsearch-container {
+        padding: 5px 0;
+    }
+    .gs-box {
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .username-wrapper {
+        margin-right: 5px;
+        display: block;
+    }
+    .search-wrapper {
+        margin-right: 5px;
+    }
+    .search-wrapper input {
+        padding-right: 30px;
+    }
+}
+
+/* =============================== */
+/* globalsearch-container ends */
+/* =============================== */
+

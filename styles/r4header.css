@@ -1,0 +1,114 @@
+/* =============================== */
+/* header-container starts */
+/* =============================== */
+.header-container {
+    position: relative;
+    z-index: 1;
+    background-color: var(--rc-swatch-or);
+    -webkit-box-shadow: 0px 4px 6px 0 rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 4px 6px 0 rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 6px 0 rgba(0,0,0,0.3);
+}
+.header-container .r4Col-1-1 {
+    padding-right: 0;
+}
+.hd-box {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.hamburger-wrapper {
+    cursor: pointer;
+    /* position: absolute; */
+    /* top: -11px; */
+    height: 32px;
+}
+.hamburger-wrapper svg {
+    position: relative;
+    top: -8px;
+}
+.logo-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 15px;
+    color: var(--rc-white);
+    text-transform: capitalize;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+.logo-wrapper span {
+    opacity: 0.5;
+    font-weight: bold;
+}
+.menu-wrapper {
+    display: none;
+}
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+/* .main-menu li {} */
+.main-menu li a {
+    background-color: var(--rc-swatch-or-dr);
+    color: var(--rc-white);
+    text-transform: capitalize;
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+.main-menu li a:hover {
+    background-color: var(--rc-swatch-or-dr2);
+}
+@media (min-width: 768px) { 
+    .hamburger-wrapper {
+        display: none;
+    }
+    .logo-wrapper {
+        font-size: 24px;
+        margin-left: 0;
+    }
+    .menu-wrapper {
+        display: flex;
+    }
+}
+
+.bell-notifications {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.bell-notifications button {
+    background-color: transparent;
+    color: var(--rc-white);
+    border: 0;    
+    outline: none;
+}
+
+.bell-notifications .fa {
+    font-size: 20px;
+}
+
+.bell-notifications .notification-number {
+    background-color: var(--rc-swatch-yl);
+    color: var(--rc-black);
+    border: 1px solid var(--rc-black);
+    font-size: 11px;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    right: 0;
+    top: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* =============================== */
+/* header-container starts */
+/* =============================== */

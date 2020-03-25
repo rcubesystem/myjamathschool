@@ -1,0 +1,204 @@
+/* ---------------------------------------------------
+Common Utilities
+-----------------------------------------------------*/
+.m-z {
+    margin: 0 !important;
+}
+
+.p-z {
+    padding: 0 !important;
+}
+
+.p-10 {
+    padding: 10px !important;
+}
+
+.br-z {
+    border: 0 !important;
+}
+
+.br-l-z {
+    border-left: 0 !important;
+}
+
+.mx-auto {
+    margin: 0 auto;    
+}
+
+.txt-l {
+    text-align: left;
+}
+
+.txt-c {
+    text-align: center;
+}
+
+.txt-r {
+    text-align: right;
+}
+
+.v-hide {
+    visibility: hidden;
+}
+
+.xs-hidden {
+    display: none;
+}
+
+.edge-align {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .mx-auto {
+        width: 30%;
+    }
+
+    .r4Grid {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .edge-align {
+        flex-direction: row;
+    }
+
+    .xs-visible {
+        display: none;
+    }
+
+    .xs-hidden {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .r4Grid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+.mt-10p {
+    margin-top: 10%;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.flex-row {
+    -ms-flex-direction: row!important;
+    flex-direction: row!important;
+}
+
+.flex-column {
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+
+.btn {
+    display: inline-block;
+    border: 1px solid transparent;
+    text-transform: capitalize;
+    text-align: center;
+    border-radius: 4px;   
+    cursor: pointer; 
+    padding: 5px 15px;
+}
+
+.btn-sm {
+    padding: 0 10px;
+}
+
+.btn-md {
+    padding: 0 20px;
+}
+
+.btn-lg {
+    padding: 0 25px;
+}
+
+.btn-block {
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+
+.btn .fa {
+    margin-right: 5px;
+}
+
+.btn-bl {
+    background-color: var(--rc-swatch-bl);
+    color: var(--rc-white);
+}
+
+.btn-bl:hover {
+    background-color: var(--rc-swatch-bl-dr);
+}
+
+.btn-or {
+    background-color: var(--rc-swatch-or);
+    color: var(--rc-white);
+}
+
+.btn-or:hover {
+    background-color: var(--rc-swatch-or-dr);
+}
+
+.btn-gr {
+    background-color: var(--rc-swatch-gr);
+    color: var(--rc-white);
+}
+
+.btn-gr:hover {
+    background-color: var(--rc-swatch-gr-dr);
+}
+
+.btn-yl {
+    background-color: var(--rc-swatch-yl);
+    color: var(--rc-white);
+}
+
+.btn-yl:hover {
+    background-color: var(--rc-swatch-yl-dr);
+}
+
+.btn-pr {
+    background-color: var(--rc-swatch-pr);
+    color: var(--rc-white);
+}
+
+.btn-pr:hover {
+    background-color: var(--rc-swatch-pr-dr);
+}
+
+.btn-pr2 {
+    background-color: var(--rc-swatch-pr-dr);
+    color: var(--rc-white);
+}
+
+.btn-pr2:hover {
+    background-color: var(--rc-swatch-pr-dr2);
+}
+
+.btn-pk {
+    background-color: var(--rc-swatch-pk);
+    color: var(--rc-white);
+}
+
+.btn-pk:hover {
+    background-color: var(--rc-swatch-pk-dr);
+}
