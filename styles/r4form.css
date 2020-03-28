@@ -40,6 +40,20 @@
     box-sizing: border-box;
 }
 
+.r4Frm-Crl:focus,
+.r4Frm-Crl textarea:focus {
+    border-color: #ec774b;
+    outline: none;
+}
+
+.r4Lnk,
+.r4Lnk:hover {
+    color: #ec774b;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+
 @media (min-width: 768px) { 
     .r4Frm input[type="text"],
     .r4Frm input[type="password"],

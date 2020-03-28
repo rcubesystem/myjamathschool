@@ -62,12 +62,16 @@
         font-weight: bold;
     }
 
+    .r4LogFrm input {
+        padding: 10px 15px;
+    }
+
     .r4LogRgt {
         display: block;
         width: 60%;
         background: var(--rc-grey-dr) url("../images/login/laptopbg.jpg") no-repeat fixed center;
         background-size: cover;
-        height: 100vh;
+        height: 92vh;
     }
 }
 
