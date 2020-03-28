@@ -1,7 +1,7 @@
 /* =============================== */
 /* form controls starts */
 /* =============================== */
-.rc-form-container {
+.r4FrmCtr {
     margin-bottom: 1rem;
     border-radius: 3px;
     border: 1px solid var(--rc-grey-mid);
@@ -10,65 +10,72 @@
     box-shadow: 0px 4px 6px -3px rgba(0,0,0,0.2);
 }
 
-.rc-form-head {
+.r4FrmHd {
     background-color: var(--rc-grey-mid);
     padding: 3px 15px;
     font-weight: bold;
     border-radius: 3px 3px 0 0;
 }
 
-.rc-form-head-bl {
+.r4FrmHd-bl {
     color: var(--rc-white);
     background-color: var(--rc-swatch-bl);
 }
 
-.rc-form-head-pk {
+.r4FrmHd-pk {
     color: var(--rc-white);
     background-color: var(--rc-swatch-pk);
 }
 
-.rc-form {    
+.r4Frm {    
     padding: 15px;
 }
 
-.rc-form input[type="text"],
-.rc-form input[type="password"],
-.rc-form input[type="number"],
-.rc-form input[type="date"],
-.rc-form textarea {
+.r4Frm input[type="text"],
+.r4Frm input[type="password"],
+.r4Frm input[type="number"],
+.r4Frm input[type="date"],
+.r4Frm textarea {
     width: 100%;
+    box-sizing: border-box;
 }
 
 @media (min-width: 768px) { 
-    .rc-form input[type="text"],
-    .rc-form input[type="password"],
-    .rc-form input[type="number"],
-    .rc-form input[type="date"],
-    .rc-form textarea {
+    .r4Frm input[type="text"],
+    .r4Frm input[type="password"],
+    .r4Frm input[type="number"],
+    .r4Frm input[type="date"],
+    .r4Frm textarea {
         min-width: 12rem;
     }
 }
 
 @media (min-width: 992px) { 
-    .rc-form input[type="text"],
-    .rc-form input[type="password"],
-    .rc-form input[type="number"],
-    .rc-form input[type="date"],
-    .rc-form textarea {
+    .r4Frm input[type="text"],
+    .r4Frm input[type="password"],
+    .r4Frm input[type="number"],
+    .r4Frm input[type="date"],
+    .r4Frm textarea {
         min-width: 14rem;
     }
 }
 
-.form-group {
+.r4Frm-Grp {
     margin-bottom: 15px;
 }
 
-.form-control {
+.r4Frm-Crl {
     background-color: var(--rc-grey-lt);
     padding: 3px 15px;
 }
 
-.form-group label {
+.r4Frm-Crl.blc {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.r4Frm-Grp label {
     display: block;
     margin-bottom: 0;
     color: var(--rc-para-grey);
@@ -80,24 +87,24 @@ textarea {
     border-radius: 3px;
 }
 
-input.error {
+input.err {
     border: 1px solid var(--rc-swatch-or);
     opacity: 0.75;
 }
 
-.mandatory {
+.mdy {
     font-weight: bold;
     margin-left: 5px;
     color: var(--rc-swatch-or-dr2);
 }
 
-.error-input {
+.err-input {
     font-size: 12px;
     color: var(--rc-swatch-or-dr2);
     margin-left: 5px;
 }
 
-.error-input::before {
+.err-input::before {
     content: "- ";
 }
 /* =============================== */

@@ -1,7 +1,7 @@
 /* =============================== */
 /* header-container starts */
 /* =============================== */
-.header-container {
+.r4HdrCtr {
     position: relative;
     z-index: 1;
     background-color: var(--rc-swatch-or);
@@ -9,25 +9,25 @@
     -moz-box-shadow: 0px 4px 6px 0 rgba(0,0,0,0.3);
     box-shadow: 0px 4px 6px 0 rgba(0,0,0,0.3);
 }
-.header-container .r4Col-1-1 {
+.r4HdrCtr .r4Col-1-1 {
     padding-right: 0;
 }
-.hd-box {
+.r4HdrBox {
     display: flex;
     position: relative;
     justify-content: space-between;
 }
-.hamburger-wrapper {
+.r4HamWrp {
     cursor: pointer;
     /* position: absolute; */
     /* top: -11px; */
     height: 32px;
 }
-.hamburger-wrapper svg {
+.r4HamWrp svg {
     position: relative;
     top: -8px;
 }
-.logo-wrapper {
+.r4LgoWrp {
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -37,21 +37,21 @@
     font-size: 20px;
     /* font-weight: bold; */
 }
-.logo-wrapper span {
+.r4LgoWrp span {
     opacity: 0.5;
     font-weight: bold;
 }
-.menu-wrapper {
+.r4MnuWrp {
     display: none;
 }
-.main-menu {
+.r4MaiMnu {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
 }
-/* .main-menu li {} */
-.main-menu li a {
+/* .r4MaiMnu li {} */
+.r4MaiMnu li a {
     background-color: var(--rc-swatch-or-dr);
     color: var(--rc-white);
     text-transform: capitalize;
@@ -59,40 +59,40 @@
     padding: 15px 15px;
     text-decoration: none;
 }
-.main-menu li a:hover {
+.r4MaiMnu li a:hover {
     background-color: var(--rc-swatch-or-dr2);
 }
 @media (min-width: 768px) { 
-    .hamburger-wrapper {
+    .r4HamWrp {
         display: none;
     }
-    .logo-wrapper {
+    .r4LgoWrp {
         font-size: 24px;
         margin-left: 0;
     }
-    .menu-wrapper {
+    .r4MnuWrp {
         display: flex;
     }
 }
 
-.bell-notifications {
+.r4BelNtf {
     position: relative;
     display: flex;
     align-items: center;
 }
 
-.bell-notifications button {
+.r4BelNtf button {
     background-color: transparent;
     color: var(--rc-white);
     border: 0;    
     outline: none;
 }
 
-.bell-notifications .fa {
+.r4BelNtf .fa {
     font-size: 20px;
 }
 
-.bell-notifications .notification-number {
+.r4BelNtf .ntf {
     background-color: var(--rc-swatch-yl);
     color: var(--rc-black);
     border: 1px solid var(--rc-black);
