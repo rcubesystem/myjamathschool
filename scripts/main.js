@@ -17,6 +17,11 @@ r$.subscribe("/r$/onload", function () {
     r$("#loginButton").on("click", function () {
         alert("login button clicked");
     });
+    r$("#themeSelect").on("change", function () {
+		var tIndex=r$(this).val();
+		console.log("select changes ",tIndex);
+		themer(tIndex)
+    });
 });
 // r4cube framework ends
 
