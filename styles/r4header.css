@@ -44,13 +44,14 @@
 .r4MnuWrp {
     display: none;
 }
+
 .r4MaiMnu {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
+    align-items: center;
 }
-/* .r4MaiMnu li {} */
 .r4MaiMnu li a {
     background-color: var(--rc-swatch-or-dr);
     color: var(--rc-white);
@@ -62,6 +63,17 @@
 .r4MaiMnu li a:hover {
     background-color: var(--rc-swatch-or-dr2);
 }
+.r4MaiMnu li select {
+    border: 1px solid var(--rc-swatch-or-dr);
+    margin: 10px;
+    padding: 5px;
+    background-color: transparent;
+    outline: none;
+}
+.r4MaiMnu li select option {
+    padding: 5px;
+}
+
 @media (min-width: 768px) { 
     .r4HamWrp {
         display: none;

@@ -27,3 +27,17 @@ r$.subscribe("/r$/onload", function () {
     });
 });
 // Sample Test Codes Ends
+
+// Theming Impl Starts
+function themer(val){
+    var href;
+    switch(val){
+        case'1':href = "styles/theming/themeone.css";break;
+        case'2':href = "styles/theming/themetwo.css";break;
+        case'3':href = "styles/theming/themethree.css";break;        
+        case'4':href = "styles/theming/themefour.css";break;
+        default:;break;
+    }
+    document.getElementById('mytheme').href = href;
+}
+// Theming Impl Ends

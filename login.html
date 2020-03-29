@@ -16,6 +16,9 @@
     <script src="scripts/r4cube/rscript.js"></script>  
     <script src="scripts/main.js"></script>
     <title>Login - V1.0</title>
+
+    <link rel="stylesheet" href="styles/theming/themeone.css" id="mytheme">
+
   </head>
   <body>
     <!-- header starts -->
@@ -33,7 +36,22 @@
               <div class="r4MnuWrp">
                 <ul class="r4MaiMnu">
                   <li>
+                    <button class="r4Btn r4BtnSml" onclick="themer('1')">theme-1</button>
+                    <button class="r4Btn r4BtnSml" onclick="themer('2')">theme-2</button>
+                    <button class="r4Btn r4BtnSml" onclick="themer('3')">theme-3</button>                    
+                    <button class="r4Btn r4BtnSml" onclick="themer('4')">theme-4</button>
+                  </li>
+                  <li>&nbsp;&nbsp;&nbsp;</li>
+                  <li>
                     <a href="index.html">contact us</a>
+                  </li>
+                  <li>
+                    <!-- <select name="" id="themeSelect">
+                      <option disabled selected value>Themes</option>
+                      <option value="1" id="toggle-green">Green</option>
+                      <option value="2">Blue</option>
+                      <option value="3">Red</option>
+                    </select> -->
                   </li>
                 </ul>
               </div>
@@ -61,7 +79,8 @@
               <div class="err-input">Error - Password Not Matching</div>
             </div>  
             <div class="r4TxtCnr r4Frm-Grp">
-              <button type="submit" class="btn btn-or p-10">Login to RCube Schools</button>
+              <!-- <button type="submit" class="btn btn-or">Login to RCube Schools</button> -->
+              <button type="submit" class="r4Btn r4BtnSkn">Login to RCube Schools</button>
             </div>  
             <div class="r4TxtCnr r4Frm-Grp">
               <label for="">Forgot your password?</label>

@@ -3,6 +3,13 @@
 }
 
 :root {
+    /* Theme Starts */
+    --r4-thm-green: 120; /* #72C64A , #4CCC0F */
+    --r4-thm-purple: 290; /* #C389CE; */
+    --r4-thm-red: 0; /* #EC774B; */
+    --r4-thm-blue: 194; /* #0daddd; */
+    /* Theme Ends */
+
     --rc-swatch-bl: #74CEE4;
     --rc-swatch-bl-dr: #3fa6c0;
     

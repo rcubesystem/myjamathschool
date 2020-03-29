@@ -1,0 +1,26 @@
+/* Themetwo -- Purple */
+.r4HdrCtr {
+    background-color: hsl(var(--r4-thm-purple), 39%, 60%);
+}
+
+.r4MaiMnu li a {
+    background-color: hsl(var(--r4-thm-purple), 39%, 55%);
+}
+
+.r4MaiMnu li a:hover {
+    background-color: hsl(var(--r4-thm-purple), 39%, 50%);
+}
+
+.r4Lnk, .r4Lnk:hover {
+    color: hsl(var(--r4-thm-purple), 39%, 50%);
+}
+
+.r4BtnSkn {
+    background-color: hsl(var(--r4-thm-purple), 39%, 60%);
+    color: var(--rc-white);
+}
+
+.r4BtnSkn:hover {
+    background-color: hsl(var(--r4-thm-purple), 39%, 50%);
+    color: var(--rc-white);
+}

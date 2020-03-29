@@ -1,0 +1,26 @@
+/* Themethree -- Red */
+.r4HdrCtr {
+    background-color: hsl(var(--r4-thm-red), 75%, 62%);
+}
+
+.r4MaiMnu li a {
+    background-color: hsl(var(--r4-thm-red), 75%, 57%);
+}
+
+.r4MaiMnu li a:hover {
+    background-color: hsl(var(--r4-thm-red), 75%, 50%);
+}
+
+.r4Lnk, .r4Lnk:hover {
+    color: hsl(var(--r4-thm-red), 75%, 50%);
+}
+
+.r4BtnSkn {
+    background-color: hsl(var(--r4-thm-red), 75%, 62%);
+    color: var(--rc-white);
+}
+
+.r4BtnSkn:hover {
+    background-color: hsl(var(--r4-thm-red), 75%, 50%);
+    color: var(--rc-white);
+}

@@ -112,13 +112,14 @@ input.err {
     color: var(--rc-swatch-or-dr2);
 }
 
-.err-input {
+.err-input, .r4ErrInp {
     font-size: 12px;
     color: var(--rc-swatch-or-dr2);
     margin-left: 5px;
 }
 
-.err-input::before {
+.err-input::before,
+.r4ErrInp::before {
     content: "- ";
 }
 /* =============================== */

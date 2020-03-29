@@ -108,7 +108,7 @@ Common Utilities
     flex-direction: column!important;
 }
 
-.btn {
+.btn, .r4Btn {
     display: inline-block;
     border: 1px solid transparent;
     text-transform: capitalize;
@@ -118,19 +118,19 @@ Common Utilities
     padding: 5px 15px;
 }
 
-.btn-sm {
+.btn-sm, .r4BtnSml {
     padding: 0 10px;
 }
 
-.btn-md {
+.btn-md, .r4BtnMdm {
     padding: 0 20px;
 }
 
-.btn-lg {
+.btn-lg, .r4BtnLrg {
     padding: 0 25px;
 }
 
-.btn-block {
+.btn-block, .r4BtnBck {
     display: block;
     text-align: center;
     width: 100%;
